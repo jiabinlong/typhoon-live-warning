@@ -19,6 +19,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: 整理静态网站文件
         run: |
           mkdir _site
@@ -30,3 +32,4 @@ jobs:
       - name: 发布网站
         id: deployment
         uses: actions/deploy-pages@v4
+
