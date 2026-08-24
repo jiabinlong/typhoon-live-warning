@@ -45,3 +45,8 @@
 ## 重要声明
 
 本平台应明确标注数据来源及更新时间。预警信息必须以国家和地方气象主管部门正式发布内容为准；平台自行计算的风险提示只能作为辅助信息，不得冒充官方预警。
+
+
+## 在线访问
+
+GitHub Pages：https://jiabinlong.github.io/typhoon-live-warning/
