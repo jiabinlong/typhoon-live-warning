@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-24T19:40:49.294Z",
+  "fetchedAt": "2026-08-24T21:03:25.457Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -15,12 +15,12 @@
       "englishName": "NARRA",
       "active": true,
       "startTime": "2026-08-19 17:00:00",
-      "endTime": "2026-08-25 03:00:00",
+      "endTime": "2026-08-25 04:00:00",
       "sourceWarningFlag": "white",
       "current": {
-        "time": "2026-08-25 03:00:00",
+        "time": "2026-08-25 04:00:00",
         "longitude": 107.9,
-        "latitude": 19.7,
+        "latitude": 19.6,
         "intensity": "热带风暴",
         "windLevel": 9,
         "windSpeed": 23,
@@ -30,7 +30,7 @@
         "radius7": 150,
         "phase": "observed"
       },
-      "positionDescription": "距离广西北海市西南方向约235公里",
+      "positionDescription": "距离广西北海市西南方向约245公里",
       "bulletin": "“紫檀”将原地少动，强度变化不大",
       "track": [
         {
@@ -1319,13 +1319,26 @@
           "moveDirection": "未知",
           "radius7": 150,
           "phase": "observed"
+        },
+        {
+          "time": "2026-08-25 04:00:00",
+          "longitude": 107.9,
+          "latitude": 19.6,
+          "intensity": "热带风暴",
+          "windLevel": 9,
+          "windSpeed": 23,
+          "pressure": 990,
+          "moveSpeed": 0,
+          "moveDirection": "未知",
+          "radius7": 150,
+          "phase": "observed"
         }
       ],
       "forecastAgency": "中国",
       "forecast": [
         {
-          "time": "2026-08-25 09:00:00",
-          "longitude": 108.07,
+          "time": "2026-08-25 10:00:00",
+          "longitude": 108.13,
           "latitude": 19.8,
           "intensity": "热带风暴",
           "windLevel": 9,
@@ -1337,9 +1350,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-08-25 15:00:00",
-          "longitude": 108.47,
-          "latitude": 19.85,
+          "time": "2026-08-25 16:00:00",
+          "longitude": 108.53,
+          "latitude": 19.9,
           "intensity": "热带风暴",
           "windLevel": 9,
           "windSpeed": 23,
@@ -1350,9 +1363,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-08-25 21:00:00",
-          "longitude": 108.85,
-          "latitude": 20.15,
+          "time": "2026-08-25 22:00:00",
+          "longitude": 108.9,
+          "latitude": 20.2,
           "intensity": "热带风暴",
           "windLevel": 9,
           "windSpeed": 23,
@@ -1363,9 +1376,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-08-26 03:00:00",
-          "longitude": 109.15,
-          "latitude": 20.48,
+          "time": "2026-08-26 04:00:00",
+          "longitude": 109.2,
+          "latitude": 20.55,
           "intensity": "热带风暴",
           "windLevel": 9,
           "windSpeed": 23,
@@ -1376,9 +1389,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-08-26 15:00:00",
-          "longitude": 109.72,
-          "latitude": 21.37,
+          "time": "2026-08-26 16:00:00",
+          "longitude": 109.73,
+          "latitude": 21.43,
           "intensity": "热带风暴",
           "windLevel": 8,
           "windSpeed": 18,
@@ -1389,13 +1402,13 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-08-27 03:00:00",
-          "longitude": 109.92,
-          "latitude": 22.17,
+          "time": "2026-08-27 04:00:00",
+          "longitude": 109.93,
+          "latitude": 22.23,
           "intensity": "热带低压",
           "windLevel": 7,
-          "windSpeed": 15,
-          "pressure": 998,
+          "windSpeed": 14,
+          "pressure": 1000,
           "moveSpeed": null,
           "moveDirection": "未知",
           "radius7": null,
