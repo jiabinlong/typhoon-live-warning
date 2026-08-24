@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#081a2b" />
+    <meta
+      name="description"
+      content="面向沿海居民的台风实况、路径与分级预警演示页面。"
+    />
+    <title>风讯｜台风实况与预警</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">跳到主要内容</a>
+
+    <div class="demo-banner" role="note" id="dataBanner">
+      <span class="demo-dot" aria-hidden="true"></span>
+      正在读取浙江省台风路径实时发布系统数据，请稍候
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="风讯首页">
+        <span class="brand-mark" aria-hidden="true">风</span>
+        <span>
+          <strong>风讯</strong>
+          <small>沿海台风信息服务</small>
+        </span>
+      </a>
+      <div class="header-actions">
+        <button class="location-button" type="button" id="locationButton">
+          <span aria-hidden="true">◎</span>
+          <span id="locationText">广东 · 汕尾</span>
+        </button>
+        <div class="data-status"><span></span><b id="dataStatus">正在同步真实数据</b></div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero-section" aria-labelledby="storm-title">
+        <div class="hero-copy">
+          <div class="eyebrow-row">
+            <span class="storm-tag">台风实况</span>
+            <span class="update-time" id="observedAt">数据加载中</span>
+          </div>
+          <h1 id="storm-title">正在加载台风数据</h1>
+          <p class="storm-subtitle" id="stormSubtitle">数据来源：浙江省台风路径实时发布系统</p>
+          <p class="hero-summary" id="heroSummary">请稍候，页面正在读取最新生成的数据文件。</p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#track">查看完整路径</a>
+            <a class="text-button" href="#warning">查看防御建议 <span>→</span></a>
+          </div>
+        </div>
+
+        <div class="wind-orbit" aria-label="中心最大风力14级，每秒42米">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="wind-core">
+            <span>中心最大风力</span>
+            <strong><span id="windLevel">--</span><small>级</small></strong>
+            <em id="windSpeed">-- 米/秒</em>
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics-grid" aria-label="台风核心实况数据">
+        <article class="metric-card">
+          <span class="metric-icon blue" aria-hidden="true">⌖</span>
+          <div>
+            <p>中心位置</p>
+            <strong id="positionValue">--</strong>
+            <small id="positionDetail">等待数据</small>
+          </div>
+        </article>
+        <article class="metric-card">
+          <span class="metric-icon cyan" aria-hidden="true">↖</span>
+          <div>
+            <p>移动方向</p>
+            <strong id="directionValue">--</strong>
+            <small id="moveSpeedValue">等待数据</small>
+          </div>
+        </article>
+        <article class="metric-card">
+          <span class="metric-icon orange" aria-hidden="true">≈</span>
+          <div>
+            <p>中心气压</p>
+            <strong id="pressureValue">-- hPa</strong>
+            <small id="intensityValue">等待数据</small>
+          </div>
+        </article>
+        <article class="metric-card">
+          <span class="metric-icon purple" aria-hidden="true">◷</span>
+          <div>
+            <p>七级风圈半径</p>
+            <strong id="radiusValue">-- km</strong>
+            <small>不同方向范围不同</small>
+          </div>
+        </article>
+      </section>
+
+      <section class="content-grid">
+        <article class="panel track-panel" id="track">
+          <div class="panel-heading">
+            <div>
+              <span class="section-kicker">趋势判断</span>
+              <h2>台风路径示意</h2>
+            </div>
+            <div class="track-legend" aria-label="路径图例">
+              <span><i class="observed"></i>实况</span>
+              <span><i class="forecast"></i>预测</span>
+            </div>
+          </div>
+
+          <div class="map-wrap">
+            <canvas id="trackCanvas" aria-label="台风从南海向广东沿海移动的演示路径图"></canvas>
+            <div class="map-label label-hainan">海南</div>
+            <div class="map-label label-guangdong">广东</div>
+            <div class="map-label label-taiwan">台湾</div>
+            <div class="map-city city-shanwei"><span></span>汕尾</div>
+            <div class="map-city city-shenzhen"><span></span>深圳</div>
+            <div class="map-city city-shantou"><span></span>汕头</div>
+            <div class="map-scale">200 km</div>
+            <div class="map-demo">浙江省水利厅数据</div>
+          </div>
+
+          <ol class="forecast-timeline" id="forecastTimeline" aria-label="预测时间点">
+            <li><time>等待数据</time><strong>路径数据加载中</strong><span>—</span></li>
+          </ol>
+        </article>
+
+        <aside class="panel warning-panel" id="warning" aria-labelledby="warning-title">
+          <div class="warning-topline">
+            <span class="warning-badge" id="riskBadge">平台风险提示</span>
+            <span class="warning-time" id="riskTime">等待实况</span>
+          </div>
+          <h2 id="warning-title">正在根据实况风力<br />生成辅助风险提示</h2>
+          <p class="warning-source">非官方预警，请以当地气象部门正式发布为准</p>
+
+          <div class="warning-levels" role="group" aria-label="查看各级预警说明">
+            <button type="button" data-level="blue" aria-label="蓝色预警"></button>
+            <button type="button" data-level="yellow" aria-label="黄色预警"></button>
+            <button type="button" data-level="orange" class="active" aria-label="橙色预警，当前"></button>
+            <button type="button" data-level="red" aria-label="红色预警"></button>
+          </div>
+
+          <div class="advice-box">
+            <h3 id="adviceTitle">现在应该做什么</h3>
+            <ul id="adviceList">
+              <li>停止非必要的户外活动，老人和儿童尽量留在室内。</li>
+              <li>远离海岸、河口、低洼地带及临时搭建物。</li>
+              <li>加固门窗，收好阳台物品，准备照明和饮用水。</li>
+              <li>密切关注政府发布的停航、停课或撤离通知。</li>
+            </ul>
+          </div>
+
+          <div class="hotline">
+            <span aria-hidden="true">☎</span>
+            <div><small>紧急情况请拨打</small><strong>110 / 119 / 120</strong></div>
+          </div>
+          <p class="official-note">本区域依据实况风力生成辅助提示，不构成官方预警。实际行动请以当地政府和气象主管部门发布的信息为准。</p>
+        </aside>
+      </section>
+
+      <section class="impact-strip" aria-labelledby="impact-title">
+        <div>
+          <span class="section-kicker">你所在的地区</span>
+          <h2 id="impact-title">数据可信度说明</h2>
+        </div>
+        <div class="impact-item"><span>数据来源</span><strong>浙江省水利厅</strong></div>
+        <div class="impact-item"><span>自动更新频率</span><strong>每 15 分钟检查一次</strong></div>
+        <div class="impact-item"><span>使用提醒</span><strong>以官方预警为准</strong></div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <strong>风讯</strong>
+        <p>让重要的台风信息，更快被看懂。</p>
+      </div>
+      <p>台风实况与路径转载自浙江省台风路径实时发布系统。平台风险提示不属于官方预警，不可替代政府防灾、避险或撤离指令。</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

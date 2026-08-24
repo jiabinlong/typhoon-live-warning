@@ -1,0 +1,28 @@
+name: 更新台风实况数据
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: typhoon-data-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 抓取浙江省台风路径系统数据
+        run: node scripts/fetch-typhoon.mjs
+      - name: 提交数据变化
+        run: |
+          if git diff --quiet -- data/typhoon.json; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/typhoon.json
+          git commit -m "data: 更新台风实况"
+          git push
