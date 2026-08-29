@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-29T06:51:07.923Z",
+  "fetchedAt": "2026-08-29T09:20:44.270Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -15,22 +15,22 @@
       "englishName": "SAUDEL",
       "active": true,
       "startTime": "2026-08-19 11:00:00",
-      "endTime": "2026-08-29 14:00:00",
+      "endTime": "2026-08-29 17:00:00",
       "sourceWarningFlag": "1",
       "current": {
-        "time": "2026-08-29 14:00:00",
-        "longitude": 115.1,
-        "latitude": 26.8,
+        "time": "2026-08-29 17:00:00",
+        "longitude": 114.6,
+        "latitude": 26.9,
         "intensity": "热带低压",
         "windLevel": 7,
         "windSpeed": 15,
-        "pressure": 998,
-        "moveSpeed": 22,
+        "pressure": 995,
+        "moveSpeed": 21,
         "moveDirection": "西南西",
         "radius7": null,
         "phase": "observed"
       },
-      "positionDescription": "位于江西省吉安市泰和县境内",
+      "positionDescription": "位于江西省吉安市吉安县境内",
       "bulletin": "热带低压“沙德尔”将以每小时20-25公里的速度向西偏南方向移动，强度变化不大",
       "track": [
         {
@@ -1618,14 +1618,40 @@
           "moveDirection": "西南西",
           "radius7": null,
           "phase": "observed"
+        },
+        {
+          "time": "2026-08-29 17:00:00",
+          "longitude": 114.6,
+          "latitude": 26.9,
+          "intensity": "热带低压",
+          "windLevel": 7,
+          "windSpeed": 15,
+          "pressure": 995,
+          "moveSpeed": 21,
+          "moveDirection": "西南西",
+          "radius7": null,
+          "phase": "observed"
         }
       ],
       "forecastAgency": "中国",
       "forecast": [
         {
-          "time": "2026-08-29 20:00:00",
-          "longitude": 113.9,
-          "latitude": 26.5,
+          "time": "2026-08-29 23:00:00",
+          "longitude": 113.5,
+          "latitude": 26.4,
+          "intensity": "热带低压",
+          "windLevel": 7,
+          "windSpeed": 15,
+          "pressure": 995,
+          "moveSpeed": null,
+          "moveDirection": "未知",
+          "radius7": null,
+          "phase": "forecast"
+        },
+        {
+          "time": "2026-08-30 05:00:00",
+          "longitude": 112.5,
+          "latitude": 25.7,
           "intensity": "热带低压",
           "windLevel": 7,
           "windSpeed": 15,
@@ -1636,22 +1662,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-08-30 02:00:00",
-          "longitude": 112.8,
-          "latitude": 25.8,
-          "intensity": "热带低压",
-          "windLevel": 7,
-          "windSpeed": 15,
-          "pressure": 998,
-          "moveSpeed": null,
-          "moveDirection": "未知",
-          "radius7": null,
-          "phase": "forecast"
-        },
-        {
-          "time": "2026-08-30 08:00:00",
-          "longitude": 112,
-          "latitude": 25,
+          "time": "2026-08-30 11:00:00",
+          "longitude": 111.7,
+          "latitude": 24.7,
           "intensity": "热带低压",
           "windLevel": 6,
           "windSpeed": 12,
@@ -1662,9 +1675,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-08-30 14:00:00",
-          "longitude": 111.3,
-          "latitude": 23.8,
+          "time": "2026-08-30 17:00:00",
+          "longitude": 111.4,
+          "latitude": 23.4,
           "intensity": "热带低压",
           "windLevel": 6,
           "windSpeed": 12,
