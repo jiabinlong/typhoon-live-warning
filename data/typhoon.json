@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-29T14:20:51.247Z",
+  "fetchedAt": "2026-08-29T15:35:42.593Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -15,12 +15,12 @@
       "englishName": "SAUDEL",
       "active": true,
       "startTime": "2026-08-19 11:00:00",
-      "endTime": "2026-08-29 20:00:00",
+      "endTime": "2026-08-29 23:00:00",
       "sourceWarningFlag": "1",
       "current": {
-        "time": "2026-08-29 20:00:00",
-        "longitude": 113.6,
-        "latitude": 26.6,
+        "time": "2026-08-29 23:00:00",
+        "longitude": 112.9,
+        "latitude": 26.1,
         "intensity": "热带低压",
         "windLevel": 7,
         "windSpeed": 15,
@@ -1644,14 +1644,27 @@
           "moveDirection": "南西",
           "radius7": null,
           "phase": "observed"
+        },
+        {
+          "time": "2026-08-29 23:00:00",
+          "longitude": 112.9,
+          "latitude": 26.1,
+          "intensity": "热带低压",
+          "windLevel": 7,
+          "windSpeed": 15,
+          "pressure": 995,
+          "moveSpeed": 25,
+          "moveDirection": "南西",
+          "radius7": null,
+          "phase": "observed"
         }
       ],
       "forecastAgency": "中国",
       "forecast": [
         {
-          "time": "2026-08-30 02:00:00",
-          "longitude": 112.5,
-          "latitude": 25.8,
+          "time": "2026-08-30 05:00:00",
+          "longitude": 111.9,
+          "latitude": 25.2,
           "intensity": "热带低压",
           "windLevel": 7,
           "windSpeed": 15,
@@ -1662,35 +1675,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-08-30 08:00:00",
-          "longitude": 111.5,
-          "latitude": 24.8,
-          "intensity": "热带低压",
-          "windLevel": 7,
-          "windSpeed": 15,
-          "pressure": 998,
-          "moveSpeed": null,
-          "moveDirection": "未知",
-          "radius7": null,
-          "phase": "forecast"
-        },
-        {
-          "time": "2026-08-30 14:00:00",
+          "time": "2026-08-30 11:00:00",
           "longitude": 111.1,
-          "latitude": 23.7,
-          "intensity": "热带低压",
-          "windLevel": 6,
-          "windSpeed": 12,
-          "pressure": 998,
-          "moveSpeed": null,
-          "moveDirection": "未知",
-          "radius7": null,
-          "phase": "forecast"
-        },
-        {
-          "time": "2026-08-30 20:00:00",
-          "longitude": 110.7,
-          "latitude": 22.2,
+          "latitude": 24,
           "intensity": "热带低压",
           "windLevel": 6,
           "windSpeed": 12,
