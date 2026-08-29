@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-29T12:51:58.394Z",
+  "fetchedAt": "2026-08-29T13:05:51.620Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -2036,17 +2036,17 @@
       "englishName": "BANG-LANG",
       "active": true,
       "startTime": "2026-08-28 14:00:00",
-      "endTime": "2026-08-29 17:00:00",
+      "endTime": "2026-08-29 20:00:00",
       "sourceWarningFlag": "white",
       "current": {
-        "time": "2026-08-29 17:00:00",
-        "longitude": 168.4,
-        "latitude": 24.5,
+        "time": "2026-08-29 20:00:00",
+        "longitude": 168.5,
+        "latitude": 25.1,
         "intensity": "台风",
         "windLevel": 12,
         "windSpeed": 33,
         "pressure": 975,
-        "moveSpeed": 27,
+        "moveSpeed": 40,
         "moveDirection": "北",
         "radius7": 220,
         "phase": "observed"
@@ -2183,14 +2183,27 @@
           "moveDirection": "北",
           "radius7": 220,
           "phase": "observed"
+        },
+        {
+          "time": "2026-08-29 20:00:00",
+          "longitude": 168.5,
+          "latitude": 25.1,
+          "intensity": "台风",
+          "windLevel": 12,
+          "windSpeed": 33,
+          "pressure": 975,
+          "moveSpeed": 40,
+          "moveDirection": "北",
+          "radius7": 220,
+          "phase": "observed"
         }
       ],
       "forecastAgency": "中国",
       "forecast": [
         {
-          "time": "2026-08-30 05:00:00",
+          "time": "2026-08-30 08:00:00",
           "longitude": 168.4,
-          "latitude": 27.4,
+          "latitude": 29.4,
           "intensity": "台风",
           "windLevel": 12,
           "windSpeed": 35,
@@ -2201,9 +2214,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-08-30 17:00:00",
-          "longitude": 167.4,
-          "latitude": 31.9,
+          "time": "2026-08-30 20:00:00",
+          "longitude": 167.2,
+          "latitude": 32.6,
           "intensity": "台风",
           "windLevel": 12,
           "windSpeed": 33,
@@ -2214,9 +2227,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-08-31 05:00:00",
-          "longitude": 165.7,
-          "latitude": 35.1,
+          "time": "2026-08-31 08:00:00",
+          "longitude": 166.4,
+          "latitude": 35.7,
           "intensity": "强热带风暴",
           "windLevel": 11,
           "windSpeed": 30,
@@ -2227,22 +2240,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-08-31 17:00:00",
-          "longitude": 165.8,
-          "latitude": 37.9,
-          "intensity": "强热带风暴",
-          "windLevel": 10,
-          "windSpeed": 28,
-          "pressure": 982,
-          "moveSpeed": null,
-          "moveDirection": "未知",
-          "radius7": null,
-          "phase": "forecast"
-        },
-        {
-          "time": "2026-09-01 05:00:00",
-          "longitude": 169.1,
-          "latitude": 42.7,
+          "time": "2026-08-31 20:00:00",
+          "longitude": 167,
+          "latitude": 38.5,
           "intensity": "强热带风暴",
           "windLevel": 10,
           "windSpeed": 25,
@@ -2253,9 +2253,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-01 17:00:00",
-          "longitude": 174.6,
-          "latitude": 47.7,
+          "time": "2026-09-01 08:00:00",
+          "longitude": 169.8,
+          "latitude": 41.9,
           "intensity": "热带风暴",
           "windLevel": 9,
           "windSpeed": 23,
