@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-29T13:05:51.620Z",
+  "fetchedAt": "2026-08-29T14:20:51.247Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -30,8 +30,8 @@
         "radius7": null,
         "phase": "observed"
       },
-      "positionDescription": "位于江西省吉安市吉安县境内",
-      "bulletin": "热带低压“沙德尔”将以每小时20-25公里的速度向西偏南方向移动，强度变化不大",
+      "positionDescription": "位于湖南省株洲市境内",
+      "bulletin": "热带低压“沙德尔”将以每小时25公里左右的速度向西南方向移动，强度变化不大",
       "track": [
         {
           "time": "2026-08-19 11:00:00",
@@ -1723,8 +1723,8 @@
         "radius7": 350,
         "phase": "observed"
       },
-      "positionDescription": "距离日本东京东偏南方向约2540公里",
-      "bulletin": "“艾涛”将以每小时20-25公里的速度向北偏西方向移动，强度变化不大",
+      "positionDescription": "距离日本东京东偏南方向约2490公里",
+      "bulletin": "“艾涛”将以每小时10公里左右的速度向西北方向移动，强度变化不大",
       "track": [
         {
           "time": "2026-08-27 14:00:00",
@@ -2051,8 +2051,8 @@
         "radius7": 220,
         "phase": "observed"
       },
-      "positionDescription": "距离密克罗尼亚帕里基尔北偏东方向约2240公里",
-      "bulletin": "“班朗”将以每小时25-30公里的速度向偏北方向移动，强度变化不大",
+      "positionDescription": "距离密克罗尼亚帕里基尔北偏东方向约2300公里",
+      "bulletin": "“班朗”将以每小时40公里左右的速度向偏北方向快速移动，强度变化不大",
       "track": [
         {
           "time": "2026-08-28 14:00:00",
