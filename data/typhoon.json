@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-29T06:20:54.894Z",
+  "fetchedAt": "2026-08-29T06:35:54.842Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -1697,8 +1697,8 @@
         "radius7": 350,
         "phase": "observed"
       },
-      "positionDescription": "距离日本东京东偏南方向约2660公里",
-      "bulletin": "“艾涛”将以每小时20-25公里的速度向北偏西方向移动，强度变化不大",
+      "positionDescription": "距离日本东京东偏南方向约2570公里",
+      "bulletin": "“艾涛”将以每小时15-20公里的速度向北偏西方向移动，强度变化不大",
       "track": [
         {
           "time": "2026-08-27 14:00:00",
