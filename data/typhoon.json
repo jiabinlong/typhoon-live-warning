@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-29T00:35:49.401Z",
+  "fetchedAt": "2026-08-29T00:50:51.934Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -1656,22 +1656,22 @@
       "englishName": "ETAU",
       "active": true,
       "startTime": "2026-08-27 14:00:00",
-      "endTime": "2026-08-29 05:00:00",
+      "endTime": "2026-08-29 08:00:00",
       "sourceWarningFlag": "white",
       "current": {
-        "time": "2026-08-29 05:00:00",
-        "longitude": 166,
-        "latitude": 26.3,
+        "time": "2026-08-29 08:00:00",
+        "longitude": 165.8,
+        "latitude": 26.2,
         "intensity": "热带风暴",
         "windLevel": 8,
         "windSpeed": 20,
         "pressure": 995,
-        "moveSpeed": 27,
+        "moveSpeed": 29,
         "moveDirection": "北北西",
         "radius7": 350,
         "phase": "observed"
       },
-      "positionDescription": "距离日本东京东偏南方向约2710公里",
+      "positionDescription": "距离日本东京东偏南方向约2690公里",
       "bulletin": "“艾涛”将以每小时25-30公里的速度向北偏西方向移动，强度变化不大",
       "track": [
         {
@@ -1855,14 +1855,27 @@
           "moveDirection": "北北西",
           "radius7": 350,
           "phase": "observed"
+        },
+        {
+          "time": "2026-08-29 08:00:00",
+          "longitude": 165.8,
+          "latitude": 26.2,
+          "intensity": "热带风暴",
+          "windLevel": 8,
+          "windSpeed": 20,
+          "pressure": 995,
+          "moveSpeed": 29,
+          "moveDirection": "北北西",
+          "radius7": 350,
+          "phase": "observed"
         }
       ],
       "forecastAgency": "中国",
       "forecast": [
         {
-          "time": "2026-08-29 17:00:00",
-          "longitude": 165.1,
-          "latitude": 29.1,
+          "time": "2026-08-29 20:00:00",
+          "longitude": 164.4,
+          "latitude": 29,
           "intensity": "热带风暴",
           "windLevel": 9,
           "windSpeed": 23,
@@ -1873,9 +1886,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-08-30 05:00:00",
-          "longitude": 164.6,
-          "latitude": 30.9,
+          "time": "2026-08-30 08:00:00",
+          "longitude": 163.5,
+          "latitude": 31.6,
           "intensity": "热带风暴",
           "windLevel": 8,
           "windSpeed": 20,
@@ -1886,9 +1899,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-08-30 17:00:00",
-          "longitude": 164.6,
-          "latitude": 32.4,
+          "time": "2026-08-30 20:00:00",
+          "longitude": 164.3,
+          "latitude": 31.3,
           "intensity": "热带风暴",
           "windLevel": 8,
           "windSpeed": 20,
@@ -1899,9 +1912,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-08-31 05:00:00",
-          "longitude": 165.4,
-          "latitude": 33.6,
+          "time": "2026-08-31 08:00:00",
+          "longitude": 165.7,
+          "latitude": 31.4,
           "intensity": "热带风暴",
           "windLevel": 8,
           "windSpeed": 18,
@@ -1912,9 +1925,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-08-31 17:00:00",
-          "longitude": 166.3,
-          "latitude": 34.9,
+          "time": "2026-08-31 20:00:00",
+          "longitude": 166.7,
+          "latitude": 32,
           "intensity": "热带风暴",
           "windLevel": 8,
           "windSpeed": 18,
@@ -1925,9 +1938,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-01 05:00:00",
-          "longitude": 167.4,
-          "latitude": 36.6,
+          "time": "2026-09-01 08:00:00",
+          "longitude": 166.9,
+          "latitude": 32.7,
           "intensity": "热带低压",
           "windLevel": 7,
           "windSpeed": 15,
