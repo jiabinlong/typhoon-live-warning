@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-29T19:35:41.394Z",
+  "fetchedAt": "2026-08-29T21:20:49.304Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -15,17 +15,17 @@
       "englishName": "SAUDEL",
       "active": true,
       "startTime": "2026-08-19 11:00:00",
-      "endTime": "2026-08-30 02:00:00",
+      "endTime": "2026-08-30 05:00:00",
       "sourceWarningFlag": "1",
       "current": {
-        "time": "2026-08-30 02:00:00",
-        "longitude": 112.3,
-        "latitude": 25.6,
+        "time": "2026-08-30 05:00:00",
+        "longitude": 112,
+        "latitude": 24.7,
         "intensity": "热带低压",
         "windLevel": 6,
         "windSpeed": 12,
         "pressure": 998,
-        "moveSpeed": 24,
+        "moveSpeed": 18,
         "moveDirection": "南南西",
         "radius7": null,
         "phase": "observed"
@@ -1670,14 +1670,27 @@
           "moveDirection": "南南西",
           "radius7": null,
           "phase": "observed"
+        },
+        {
+          "time": "2026-08-30 05:00:00",
+          "longitude": 112,
+          "latitude": 24.7,
+          "intensity": "热带低压",
+          "windLevel": 6,
+          "windSpeed": 12,
+          "pressure": 998,
+          "moveSpeed": 18,
+          "moveDirection": "南南西",
+          "radius7": null,
+          "phase": "observed"
         }
       ],
       "forecastAgency": "中国",
       "forecast": [
         {
-          "time": "2026-08-30 08:00:00",
-          "longitude": 111.5,
-          "latitude": 24.7,
+          "time": "2026-08-30 11:00:00",
+          "longitude": 111.7,
+          "latitude": 23.8,
           "intensity": "热带低压",
           "windLevel": 6,
           "windSpeed": 12,
@@ -1688,9 +1701,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-08-30 14:00:00",
-          "longitude": 110.8,
-          "latitude": 23.4,
+          "time": "2026-08-30 17:00:00",
+          "longitude": 111.3,
+          "latitude": 22.9,
           "intensity": " ",
           "windLevel": 5,
           "windSpeed": 10,
