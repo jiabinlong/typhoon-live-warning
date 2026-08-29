@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-29T22:20:53.671Z",
+  "fetchedAt": "2026-08-29T23:20:44.854Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -2103,8 +2103,8 @@
         "radius7": 180,
         "phase": "observed"
       },
-      "positionDescription": "距离日本东京东偏南方向约2850公里",
-      "bulletin": "“班朗”将以每小时45公里左右的速度向偏北方向快速移动，强度逐渐减弱",
+      "positionDescription": "距离日本东京东偏南方向约2770公里",
+      "bulletin": "“班朗”将以每小时35-40公里的速度向北偏西方向快速移动，强度缓慢减弱",
       "track": [
         {
           "time": "2026-08-28 14:00:00",
