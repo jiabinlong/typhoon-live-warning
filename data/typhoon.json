@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-30T15:50:45.485Z",
+  "fetchedAt": "2026-08-30T16:20:43.471Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -30,8 +30,8 @@
         "radius7": 200,
         "phase": "observed"
       },
-      "positionDescription": "距离日本东京偏东方向约2470公里",
-      "bulletin": "“艾涛”将以每小时15-20公里的速度向北偏东方向移动，强度变化不大",
+      "positionDescription": "距离日本东京偏东方向约2510公里",
+      "bulletin": "“艾涛”将以每小时15公里左右的速度向北偏东方向移动，强度变化不大",
       "track": [
         {
           "time": "2026-08-27 14:00:00",
@@ -449,8 +449,8 @@
         "radius7": 200,
         "phase": "observed"
       },
-      "positionDescription": "距离日本东京偏东方向约2460公里",
-      "bulletin": "“班朗”将以每小时25-30公里的速度向北偏西方向移动，强度变化不大",
+      "positionDescription": "距离日本东京偏东方向约2400公里",
+      "bulletin": "“班朗”将以每小时20-25公里的速度向北偏西方向移动，强度变化不大",
       "track": [
         {
           "time": "2026-08-28 14:00:00",
