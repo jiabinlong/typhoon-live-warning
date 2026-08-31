@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-31T15:35:47.624Z",
+  "fetchedAt": "2026-08-31T16:50:57.175Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -30,8 +30,8 @@
         "radius7": null,
         "phase": "observed"
       },
-      "positionDescription": "距离海南省万宁市东偏北方向约160公里",
-      "bulletin": "热带低压“沙德尔”将以每小时15-20公里的速度向偏东方向移动，强度逐渐增强",
+      "positionDescription": "距离海南省万宁市东偏北方向约215公里",
+      "bulletin": "热带低压“沙德尔”将以每小时20-25公里的速度向东偏北方向移动，强度逐渐增强",
       "track": [
         {
           "time": "2026-08-19 11:00:00",
