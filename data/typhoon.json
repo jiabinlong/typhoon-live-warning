@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-01T22:38:39.887Z",
+  "fetchedAt": "2026-09-01T23:09:02.583Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -15,10 +15,10 @@
       "englishName": "SAUDEL",
       "active": true,
       "startTime": "2026-08-19 11:00:00",
-      "endTime": "2026-09-02 06:00:00",
+      "endTime": "2026-09-02 07:00:00",
       "sourceWarningFlag": "1",
       "current": {
-        "time": "2026-09-02 06:00:00",
+        "time": "2026-09-02 07:00:00",
         "longitude": 116.9,
         "latitude": 21.8,
         "intensity": "热带风暴",
@@ -2138,10 +2138,36 @@
           "moveDirection": "东北东",
           "radius7": 300,
           "phase": "observed"
+        },
+        {
+          "time": "2026-09-02 07:00:00",
+          "longitude": 116.9,
+          "latitude": 21.8,
+          "intensity": "热带风暴",
+          "windLevel": 8,
+          "windSpeed": 18,
+          "pressure": 992,
+          "moveSpeed": 10,
+          "moveDirection": "东北东",
+          "radius7": 300,
+          "phase": "observed"
         }
       ],
       "forecastAgency": "中国",
       "forecast": [
+        {
+          "time": "2026-09-02 06:00:00",
+          "longitude": 116.9,
+          "latitude": 21.8,
+          "intensity": "热带风暴",
+          "windLevel": 8,
+          "windSpeed": 18,
+          "pressure": 992,
+          "moveSpeed": null,
+          "moveDirection": "未知",
+          "radius7": null,
+          "phase": "forecast"
+        },
         {
           "time": "2026-09-02 12:00:00",
           "longitude": 117.48,
