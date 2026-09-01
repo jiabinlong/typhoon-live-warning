@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-01T05:26:09.486Z",
+  "fetchedAt": "2026-09-01T06:36:56.897Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -15,23 +15,23 @@
       "englishName": "SAUDEL",
       "active": true,
       "startTime": "2026-08-19 11:00:00",
-      "endTime": "2026-09-01 13:00:00",
+      "endTime": "2026-09-01 14:00:00",
       "sourceWarningFlag": "1",
       "current": {
-        "time": "2026-09-01 13:00:00",
-        "longitude": 114.2,
+        "time": "2026-09-01 14:00:00",
+        "longitude": 114.4,
         "latitude": 19.9,
         "intensity": "热带风暴",
         "windLevel": 8,
         "windSpeed": 18,
         "pressure": 995,
-        "moveSpeed": 25,
-        "moveDirection": "东北东",
+        "moveSpeed": 22,
+        "moveDirection": "北东",
         "radius7": 300,
         "phase": "observed"
       },
-      "positionDescription": "距离广东省汕尾市南偏西方向约345公里",
-      "bulletin": "“沙德尔”将以每小时25公里左右的速度向东偏北方向移动，强度变化不大",
+      "positionDescription": "距离广东省汕尾市南偏西方向约335公里",
+      "bulletin": "“沙德尔”将以每小时20-25公里的速度向东北方向移动，强度变化不大",
       "track": [
         {
           "time": "2026-08-19 11:00:00",
@@ -1917,10 +1917,36 @@
           "moveDirection": "东北东",
           "radius7": 300,
           "phase": "observed"
+        },
+        {
+          "time": "2026-09-01 14:00:00",
+          "longitude": 114.4,
+          "latitude": 19.9,
+          "intensity": "热带风暴",
+          "windLevel": 8,
+          "windSpeed": 18,
+          "pressure": 995,
+          "moveSpeed": 22,
+          "moveDirection": "北东",
+          "radius7": 300,
+          "phase": "observed"
         }
       ],
       "forecastAgency": "中国",
       "forecast": [
+        {
+          "time": "2026-09-01 13:00:00",
+          "longitude": 114.2,
+          "latitude": 19.9,
+          "intensity": "热带风暴",
+          "windLevel": 8,
+          "windSpeed": 18,
+          "pressure": 995,
+          "moveSpeed": null,
+          "moveDirection": "未知",
+          "radius7": null,
+          "phase": "forecast"
+        },
         {
           "time": "2026-09-01 19:00:00",
           "longitude": 115.57,
