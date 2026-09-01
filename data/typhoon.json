@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-01T19:36:51.887Z",
+  "fetchedAt": "2026-09-01T20:41:05.613Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -15,17 +15,17 @@
       "englishName": "SAUDEL",
       "active": true,
       "startTime": "2026-08-19 11:00:00",
-      "endTime": "2026-09-02 03:00:00",
+      "endTime": "2026-09-02 04:00:00",
       "sourceWarningFlag": "1",
       "current": {
-        "time": "2026-09-02 03:00:00",
-        "longitude": 116.6,
-        "latitude": 21.5,
+        "time": "2026-09-02 04:00:00",
+        "longitude": 116.8,
+        "latitude": 21.7,
         "intensity": "热带风暴",
         "windLevel": 8,
         "windSpeed": 18,
         "pressure": 995,
-        "moveSpeed": 7,
+        "moveSpeed": 6,
         "moveDirection": "东北东",
         "radius7": 300,
         "phase": "observed"
@@ -2099,14 +2099,27 @@
           "moveDirection": "东北东",
           "radius7": 300,
           "phase": "observed"
+        },
+        {
+          "time": "2026-09-02 04:00:00",
+          "longitude": 116.8,
+          "latitude": 21.7,
+          "intensity": "热带风暴",
+          "windLevel": 8,
+          "windSpeed": 18,
+          "pressure": 995,
+          "moveSpeed": 6,
+          "moveDirection": "东北东",
+          "radius7": 300,
+          "phase": "observed"
         }
       ],
       "forecastAgency": "中国",
       "forecast": [
         {
-          "time": "2026-09-02 09:00:00",
-          "longitude": 116.77,
-          "latitude": 21.55,
+          "time": "2026-09-02 10:00:00",
+          "longitude": 116.83,
+          "latitude": 21.6,
           "intensity": "热带风暴",
           "windLevel": 8,
           "windSpeed": 18,
@@ -2117,9 +2130,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-02 15:00:00",
-          "longitude": 117.15,
-          "latitude": 21.87,
+          "time": "2026-09-02 16:00:00",
+          "longitude": 117.2,
+          "latitude": 21.93,
           "intensity": "热带风暴",
           "windLevel": 8,
           "windSpeed": 18,
@@ -2130,9 +2143,22 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-02 21:00:00",
+          "time": "2026-09-02 22:00:00",
+          "longitude": 117.43,
+          "latitude": 22.3,
+          "intensity": "热带风暴",
+          "windLevel": 8,
+          "windSpeed": 18,
+          "pressure": 995,
+          "moveSpeed": null,
+          "moveDirection": "未知",
+          "radius7": null,
+          "phase": "forecast"
+        },
+        {
+          "time": "2026-09-03 04:00:00",
           "longitude": 117.42,
-          "latitude": 22.25,
+          "latitude": 22.53,
           "intensity": "热带风暴",
           "windLevel": 8,
           "windSpeed": 18,
@@ -2143,9 +2169,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-03 03:00:00",
-          "longitude": 117.46,
-          "latitude": 22.52,
+          "time": "2026-09-03 16:00:00",
+          "longitude": 116.88,
+          "latitude": 22.68,
           "intensity": "热带风暴",
           "windLevel": 8,
           "windSpeed": 18,
@@ -2156,9 +2182,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-03 15:00:00",
-          "longitude": 116.94,
-          "latitude": 22.69,
+          "time": "2026-09-04 04:00:00",
+          "longitude": 116.18,
+          "latitude": 22.58,
           "intensity": "热带风暴",
           "windLevel": 8,
           "windSpeed": 18,
@@ -2169,22 +2195,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-04 03:00:00",
-          "longitude": 116.24,
-          "latitude": 22.59,
-          "intensity": "热带风暴",
-          "windLevel": 8,
-          "windSpeed": 18,
-          "pressure": 995,
-          "moveSpeed": null,
-          "moveDirection": "未知",
-          "radius7": null,
-          "phase": "forecast"
-        },
-        {
-          "time": "2026-09-04 15:00:00",
-          "longitude": 115.58,
-          "latitude": 22.46,
+          "time": "2026-09-04 16:00:00",
+          "longitude": 115.55,
+          "latitude": 22.42,
           "intensity": "热带低压",
           "windLevel": 7,
           "windSpeed": 16,
@@ -2195,9 +2208,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-05 03:00:00",
-          "longitude": 115.28,
-          "latitude": 21.96,
+          "time": "2026-09-05 04:00:00",
+          "longitude": 115.25,
+          "latitude": 21.92,
           "intensity": "热带低压",
           "windLevel": 7,
           "windSpeed": 15,
