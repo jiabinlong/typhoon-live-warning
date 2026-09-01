@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-01T02:26:13.619Z",
+  "fetchedAt": "2026-09-01T03:11:31.032Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -15,12 +15,12 @@
       "englishName": "SAUDEL",
       "active": true,
       "startTime": "2026-08-19 11:00:00",
-      "endTime": "2026-09-01 10:00:00",
+      "endTime": "2026-09-01 11:00:00",
       "sourceWarningFlag": "1",
       "current": {
-        "time": "2026-09-01 10:00:00",
-        "longitude": 113.8,
-        "latitude": 19.7,
+        "time": "2026-09-01 11:00:00",
+        "longitude": 113.9,
+        "latitude": 19.8,
         "intensity": "热带风暴",
         "windLevel": 8,
         "windSpeed": 18,
@@ -30,7 +30,7 @@
         "radius7": 300,
         "phase": "observed"
       },
-      "positionDescription": "距离广东省汕尾市南偏西方向约380公里",
+      "positionDescription": "距离广东省汕尾市南偏西方向约365公里",
       "bulletin": "“沙德尔”将以每小时25公里左右的速度向东偏北方向移动，强度变化不大",
       "track": [
         {
@@ -1878,10 +1878,36 @@
           "moveDirection": "东北东",
           "radius7": 300,
           "phase": "observed"
+        },
+        {
+          "time": "2026-09-01 11:00:00",
+          "longitude": 113.9,
+          "latitude": 19.8,
+          "intensity": "热带风暴",
+          "windLevel": 8,
+          "windSpeed": 18,
+          "pressure": 995,
+          "moveSpeed": 25,
+          "moveDirection": "东北东",
+          "radius7": 300,
+          "phase": "observed"
         }
       ],
       "forecastAgency": "中国",
       "forecast": [
+        {
+          "time": "2026-09-01 10:00:00",
+          "longitude": 113.8,
+          "latitude": 19.7,
+          "intensity": "热带风暴",
+          "windLevel": 8,
+          "windSpeed": 18,
+          "pressure": 995,
+          "moveSpeed": null,
+          "moveDirection": "未知",
+          "radius7": null,
+          "phase": "forecast"
+        },
         {
           "time": "2026-09-01 16:00:00",
           "longitude": 115.17,
