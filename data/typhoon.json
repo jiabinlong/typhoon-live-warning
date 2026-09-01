@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-01T20:41:05.613Z",
+  "fetchedAt": "2026-09-01T21:25:57.628Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -15,23 +15,23 @@
       "englishName": "SAUDEL",
       "active": true,
       "startTime": "2026-08-19 11:00:00",
-      "endTime": "2026-09-02 04:00:00",
+      "endTime": "2026-09-02 05:00:00",
       "sourceWarningFlag": "1",
       "current": {
-        "time": "2026-09-02 04:00:00",
+        "time": "2026-09-02 05:00:00",
         "longitude": 116.8,
         "latitude": 21.7,
         "intensity": "热带风暴",
         "windLevel": 8,
         "windSpeed": 18,
         "pressure": 995,
-        "moveSpeed": 6,
+        "moveSpeed": 10,
         "moveDirection": "东北东",
         "radius7": 300,
         "phase": "observed"
       },
       "positionDescription": "距离广东省汕尾市东南方向约190公里",
-      "bulletin": "“沙德尔”将以每小时5-10公里的速度向东偏北方向缓慢移动，强度变化不大",
+      "bulletin": "“沙德尔”将以每小时10公里左右的速度向东偏北方向移动，强度变化不大",
       "track": [
         {
           "time": "2026-08-19 11:00:00",
@@ -2112,10 +2112,36 @@
           "moveDirection": "东北东",
           "radius7": 300,
           "phase": "observed"
+        },
+        {
+          "time": "2026-09-02 05:00:00",
+          "longitude": 116.8,
+          "latitude": 21.7,
+          "intensity": "热带风暴",
+          "windLevel": 8,
+          "windSpeed": 18,
+          "pressure": 995,
+          "moveSpeed": 10,
+          "moveDirection": "东北东",
+          "radius7": 300,
+          "phase": "observed"
         }
       ],
       "forecastAgency": "中国",
       "forecast": [
+        {
+          "time": "2026-09-02 04:00:00",
+          "longitude": 116.8,
+          "latitude": 21.7,
+          "intensity": "热带风暴",
+          "windLevel": 8,
+          "windSpeed": 18,
+          "pressure": 995,
+          "moveSpeed": null,
+          "moveDirection": "未知",
+          "radius7": null,
+          "phase": "forecast"
+        },
         {
           "time": "2026-09-02 10:00:00",
           "longitude": 116.83,
