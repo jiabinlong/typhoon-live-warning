@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-02T14:28:13.734Z",
+  "fetchedAt": "2026-09-02T15:15:56.212Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -30,8 +30,8 @@
         "radius7": 300,
         "phase": "observed"
       },
-      "positionDescription": "距离闽粤交界东南方向约115公里",
-      "bulletin": "“沙德尔”将以每小时5-10公里的速度向偏北方向缓慢移动，强度变化不大",
+      "positionDescription": "距离闽粤交界东南方向约125公里",
+      "bulletin": "“沙德尔”将以每小时5-10公里的速度向西北方向缓慢移动，强度变化不大",
       "track": [
         {
           "time": "2026-08-19 11:00:00",
