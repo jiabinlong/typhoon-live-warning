@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-02T23:23:51.887Z",
+  "fetchedAt": "2026-09-03T00:18:06.512Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -2238,8 +2238,8 @@
           "windLevel": 8,
           "windSpeed": 18,
           "pressure": 992,
-          "moveSpeed": 11,
-          "moveDirection": "北北东",
+          "moveSpeed": 13,
+          "moveDirection": "北东",
           "radius7": 300,
           "phase": "observed"
         },
