@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-05T09:24:25.054Z",
+  "fetchedAt": "2026-09-05T12:52:54.952Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -30,7 +30,7 @@
         "radius7": 350,
         "phase": "observed"
       },
-      "positionDescription": "距离琉球群岛那霸市偏南方向约25公里",
+      "positionDescription": "距离琉球群岛那霸市东南方向约65公里",
       "bulletin": "“科罗旺”将以每小时10-15公里的速度向东南方向移动，强度变化不大",
       "track": [
         {
