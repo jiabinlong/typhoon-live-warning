@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-05T00:43:31.520Z",
+  "fetchedAt": "2026-09-05T03:26:14.286Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -15,23 +15,23 @@
       "englishName": "KROVANH",
       "active": true,
       "startTime": "2026-09-01 08:00:00",
-      "endTime": "2026-09-05 08:00:00",
+      "endTime": "2026-09-05 11:00:00",
       "sourceWarningFlag": "white",
       "current": {
-        "time": "2026-09-05 08:00:00",
+        "time": "2026-09-05 11:00:00",
         "longitude": 127.2,
-        "latitude": 27.9,
+        "latitude": 27.5,
         "intensity": "热带风暴",
         "windLevel": 9,
         "windSpeed": 23,
         "pressure": 990,
-        "moveSpeed": 18,
+        "moveSpeed": 13,
         "moveDirection": "南",
         "radius7": 350,
         "phase": "observed"
       },
-      "positionDescription": "距离琉球群岛那霸市西北方向约195公里",
-      "bulletin": "“科罗旺”将以每小时15-20公里的速度向偏南方向移动，强度变化不大",
+      "positionDescription": "距离琉球群岛那霸市西北方向约150公里",
+      "bulletin": "“科罗旺”将以每小时10-15公里的速度向偏南方向移动，强度变化不大",
       "track": [
         {
           "time": "2026-09-01 08:00:00",
@@ -461,14 +461,27 @@
           "moveDirection": "南",
           "radius7": 350,
           "phase": "observed"
+        },
+        {
+          "time": "2026-09-05 11:00:00",
+          "longitude": 127.2,
+          "latitude": 27.5,
+          "intensity": "热带风暴",
+          "windLevel": 9,
+          "windSpeed": 23,
+          "pressure": 990,
+          "moveSpeed": 13,
+          "moveDirection": "南",
+          "radius7": 350,
+          "phase": "observed"
         }
       ],
       "forecastAgency": "中国",
       "forecast": [
         {
-          "time": "2026-09-05 20:00:00",
-          "longitude": 127.2,
-          "latitude": 26,
+          "time": "2026-09-05 23:00:00",
+          "longitude": 127.4,
+          "latitude": 26.1,
           "intensity": "热带风暴",
           "windLevel": 9,
           "windSpeed": 23,
@@ -479,9 +492,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-06 08:00:00",
-          "longitude": 127.9,
-          "latitude": 25.4,
+          "time": "2026-09-06 11:00:00",
+          "longitude": 128.8,
+          "latitude": 25.2,
           "intensity": "热带风暴",
           "windLevel": 8,
           "windSpeed": 20,
@@ -492,9 +505,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-06 20:00:00",
-          "longitude": 129.7,
-          "latitude": 24.8,
+          "time": "2026-09-06 23:00:00",
+          "longitude": 130.8,
+          "latitude": 25.2,
           "intensity": "热带风暴",
           "windLevel": 8,
           "windSpeed": 18,
@@ -505,9 +518,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-07 08:00:00",
-          "longitude": 131.5,
-          "latitude": 25.6,
+          "time": "2026-09-07 11:00:00",
+          "longitude": 132.3,
+          "latitude": 26.1,
           "intensity": "热带低压",
           "windLevel": 7,
           "windSpeed": 15,
@@ -518,9 +531,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-07 20:00:00",
-          "longitude": 132.4,
-          "latitude": 27.2,
+          "time": "2026-09-07 23:00:00",
+          "longitude": 132.7,
+          "latitude": 27.5,
           "intensity": "热带低压",
           "windLevel": 7,
           "windSpeed": 15,
