@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-12T03:26:46.541Z",
+  "fetchedAt": "2026-09-12T06:33:42.523Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -15,23 +15,23 @@
       "englishName": "NAMELESS",
       "active": true,
       "startTime": "2026-09-12 08:00:00",
-      "endTime": "2026-09-12 11:00:00",
+      "endTime": "2026-09-12 14:00:00",
       "sourceWarningFlag": "white",
       "current": {
-        "time": "2026-09-12 11:00:00",
-        "longitude": 109.3,
-        "latitude": 15.4,
+        "time": "2026-09-12 14:00:00",
+        "longitude": 109.2,
+        "latitude": 15.5,
         "intensity": "热带低压",
         "windLevel": 6,
         "windSpeed": 13,
         "pressure": 1005,
-        "moveSpeed": 6,
-        "moveDirection": "北北西",
+        "moveSpeed": 8,
+        "moveDirection": "北西",
         "radius7": null,
         "phase": "observed"
       },
-      "positionDescription": "距离海南省三亚市偏南方向约320公里",
-      "bulletin": "热带低压将以每小时5-10公里的速度向北偏西方向缓慢移动，强度变化不大",
+      "positionDescription": "距离海南省三亚市偏南方向约310公里",
+      "bulletin": "热带低压将以每小时5-10公里的速度向西北方向缓慢移动，强度变化不大",
       "track": [
         {
           "time": "2026-09-12 08:00:00",
@@ -58,14 +58,27 @@
           "moveDirection": "北北西",
           "radius7": null,
           "phase": "observed"
+        },
+        {
+          "time": "2026-09-12 14:00:00",
+          "longitude": 109.2,
+          "latitude": 15.5,
+          "intensity": "热带低压",
+          "windLevel": 6,
+          "windSpeed": 13,
+          "pressure": 1005,
+          "moveSpeed": 8,
+          "moveDirection": "北西",
+          "radius7": null,
+          "phase": "observed"
         }
       ],
       "forecastAgency": "中国",
       "forecast": [
         {
-          "time": "2026-09-12 23:00:00",
-          "longitude": 109,
-          "latitude": 15.9,
+          "time": "2026-09-13 02:00:00",
+          "longitude": 108.7,
+          "latitude": 16.1,
           "intensity": "热带低压",
           "windLevel": 6,
           "windSpeed": 13,
@@ -76,9 +89,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-13 11:00:00",
-          "longitude": 108.4,
-          "latitude": 16.5,
+          "time": "2026-09-13 14:00:00",
+          "longitude": 108,
+          "latitude": 16.8,
           "intensity": "热带低压",
           "windLevel": 6,
           "windSpeed": 13,
@@ -89,9 +102,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-13 23:00:00",
-          "longitude": 107.5,
-          "latitude": 17.2,
+          "time": "2026-09-14 02:00:00",
+          "longitude": 107,
+          "latitude": 17.6,
           "intensity": "热带低压",
           "windLevel": 6,
           "windSpeed": 13,
@@ -102,9 +115,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-14 11:00:00",
-          "longitude": 106.1,
-          "latitude": 18.2,
+          "time": "2026-09-14 14:00:00",
+          "longitude": 105.9,
+          "latitude": 18.3,
           "intensity": "热带低压",
           "windLevel": 6,
           "windSpeed": 12,
