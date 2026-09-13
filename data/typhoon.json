@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-13T03:27:45.041Z",
+  "fetchedAt": "2026-09-13T06:18:31.842Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -15,11 +15,11 @@
       "englishName": "NAMELESS",
       "active": true,
       "startTime": "2026-09-12 08:00:00",
-      "endTime": "2026-09-13 11:00:00",
+      "endTime": "2026-09-13 14:00:00",
       "sourceWarningFlag": "white",
       "current": {
-        "time": "2026-09-13 11:00:00",
-        "longitude": 107.5,
+        "time": "2026-09-13 14:00:00",
+        "longitude": 107.3,
         "latitude": 17.2,
         "intensity": "热带低压",
         "windLevel": 6,
@@ -162,14 +162,27 @@
           "moveDirection": "西",
           "radius7": null,
           "phase": "observed"
+        },
+        {
+          "time": "2026-09-13 14:00:00",
+          "longitude": 107.3,
+          "latitude": 17.2,
+          "intensity": "热带低压",
+          "windLevel": 6,
+          "windSpeed": 12,
+          "pressure": 1006,
+          "moveSpeed": 13,
+          "moveDirection": "西",
+          "radius7": null,
+          "phase": "observed"
         }
       ],
       "forecastAgency": "中国",
       "forecast": [
         {
-          "time": "2026-09-13 23:00:00",
-          "longitude": 106.1,
-          "latitude": 17.3,
+          "time": "2026-09-14 02:00:00",
+          "longitude": 105.9,
+          "latitude": 17.4,
           "intensity": "热带低压",
           "windLevel": 6,
           "windSpeed": 12,
