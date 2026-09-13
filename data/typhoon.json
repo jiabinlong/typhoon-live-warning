@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-13T06:18:31.842Z",
+  "fetchedAt": "2026-09-13T06:44:01.936Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -30,7 +30,7 @@
         "radius7": null,
         "phase": "observed"
       },
-      "positionDescription": "距离海南省三亚市西偏南方向约245公里",
+      "positionDescription": "距离越南顺化市北偏西方向约60公里",
       "bulletin": "热带低压将以每小时10-15公里的速度向偏西方向移动，强度变化不大",
       "track": [
         {
