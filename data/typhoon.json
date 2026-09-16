@@ -1,12 +1,159 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-13T13:38:37.690Z",
+  "fetchedAt": "2026-09-16T14:16:16.712Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
     "url": "https://typhoon.slt.zj.gov.cn/"
   },
-  "status": "no-active-typhoon",
-  "currentStormId": null,
-  "storms": []
+  "status": "active",
+  "currentStormId": "202625",
+  "storms": [
+    {
+      "id": "202625",
+      "name": "杜鹃",
+      "englishName": "DUJUAN",
+      "active": true,
+      "startTime": "2026-09-16 20:00:00",
+      "endTime": "2026-09-16 20:00:00",
+      "sourceWarningFlag": "white",
+      "current": {
+        "time": "2026-09-16 20:00:00",
+        "longitude": 149.2,
+        "latitude": 16.4,
+        "intensity": "热带风暴",
+        "windLevel": 8,
+        "windSpeed": 18,
+        "pressure": 998,
+        "moveSpeed": 34,
+        "moveDirection": "北",
+        "radius7": 480,
+        "phase": "observed"
+      },
+      "positionDescription": "距离塞班岛东偏北方向约390公里",
+      "bulletin": "“杜鹃”将以每小时30-35公里的速度向偏北方向移动，强度逐渐增强",
+      "track": [
+        {
+          "time": "2026-09-16 20:00:00",
+          "longitude": 149.2,
+          "latitude": 16.4,
+          "intensity": "热带风暴",
+          "windLevel": 8,
+          "windSpeed": 18,
+          "pressure": 998,
+          "moveSpeed": 34,
+          "moveDirection": "北",
+          "radius7": 480,
+          "phase": "observed"
+        }
+      ],
+      "forecastAgency": "中国",
+      "forecast": [
+        {
+          "time": "2026-09-17 08:00:00",
+          "longitude": 149.7,
+          "latitude": 20,
+          "intensity": "热带风暴",
+          "windLevel": 8,
+          "windSpeed": 20,
+          "pressure": 995,
+          "moveSpeed": null,
+          "moveDirection": "未知",
+          "radius7": null,
+          "phase": "forecast"
+        },
+        {
+          "time": "2026-09-17 20:00:00",
+          "longitude": 148.2,
+          "latitude": 23.5,
+          "intensity": "热带风暴",
+          "windLevel": 9,
+          "windSpeed": 23,
+          "pressure": 990,
+          "moveSpeed": null,
+          "moveDirection": "未知",
+          "radius7": null,
+          "phase": "forecast"
+        },
+        {
+          "time": "2026-09-18 08:00:00",
+          "longitude": 144.9,
+          "latitude": 25.1,
+          "intensity": "强热带风暴",
+          "windLevel": 10,
+          "windSpeed": 25,
+          "pressure": 985,
+          "moveSpeed": null,
+          "moveDirection": "未知",
+          "radius7": null,
+          "phase": "forecast"
+        },
+        {
+          "time": "2026-09-18 20:00:00",
+          "longitude": 142.7,
+          "latitude": 25.6,
+          "intensity": "强热带风暴",
+          "windLevel": 10,
+          "windSpeed": 28,
+          "pressure": 982,
+          "moveSpeed": null,
+          "moveDirection": "未知",
+          "radius7": null,
+          "phase": "forecast"
+        },
+        {
+          "time": "2026-09-19 08:00:00",
+          "longitude": 140.8,
+          "latitude": 26.6,
+          "intensity": "强热带风暴",
+          "windLevel": 11,
+          "windSpeed": 30,
+          "pressure": 980,
+          "moveSpeed": null,
+          "moveDirection": "未知",
+          "radius7": null,
+          "phase": "forecast"
+        },
+        {
+          "time": "2026-09-19 20:00:00",
+          "longitude": 139.7,
+          "latitude": 27.9,
+          "intensity": "台风",
+          "windLevel": 12,
+          "windSpeed": 33,
+          "pressure": 975,
+          "moveSpeed": null,
+          "moveDirection": "未知",
+          "radius7": null,
+          "phase": "forecast"
+        },
+        {
+          "time": "2026-09-20 20:00:00",
+          "longitude": 139.7,
+          "latitude": 32,
+          "intensity": "强热带风暴",
+          "windLevel": 11,
+          "windSpeed": 30,
+          "pressure": 980,
+          "moveSpeed": null,
+          "moveDirection": "未知",
+          "radius7": null,
+          "phase": "forecast"
+        },
+        {
+          "time": "2026-09-21 20:00:00",
+          "longitude": 144.9,
+          "latitude": 37.5,
+          "intensity": "强热带风暴",
+          "windLevel": 10,
+          "windSpeed": 28,
+          "pressure": 982,
+          "moveSpeed": null,
+          "moveDirection": "未知",
+          "radius7": null,
+          "phase": "forecast"
+        }
+      ]
+    }
+  ]
 }
