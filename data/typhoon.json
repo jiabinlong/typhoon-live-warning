@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-16T22:10:44.787Z",
+  "fetchedAt": "2026-09-16T22:40:29.272Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -30,7 +30,7 @@
         "radius7": 480,
         "phase": "observed"
       },
-      "positionDescription": "距离塞班东北方向约530公里",
+      "positionDescription": "距离塞班岛东北方向约530公里",
       "bulletin": "“杜鹃”将以每小时40公里左右的速度向偏北方向快速移动，强度逐渐增强",
       "track": [
         {
