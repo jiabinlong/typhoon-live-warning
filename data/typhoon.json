@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-17T12:17:05.309Z",
+  "fetchedAt": "2026-09-17T16:13:31.439Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -15,22 +15,22 @@
       "englishName": "DUJUAN",
       "active": true,
       "startTime": "2026-09-16 20:00:00",
-      "endTime": "2026-09-17 20:00:00",
+      "endTime": "2026-09-17 23:00:00",
       "sourceWarningFlag": "white",
       "current": {
-        "time": "2026-09-17 20:00:00",
-        "longitude": 148.4,
-        "latitude": 23.4,
+        "time": "2026-09-17 23:00:00",
+        "longitude": 147.8,
+        "latitude": 23.8,
         "intensity": "强热带风暴",
         "windLevel": 10,
         "windSpeed": 25,
         "pressure": 985,
-        "moveSpeed": 38,
+        "moveSpeed": 37,
         "moveDirection": "西北西",
         "radius7": 480,
         "phase": "observed"
       },
-      "positionDescription": "距离塞班岛北偏东方向约950公里",
+      "positionDescription": "距离塞班岛北偏东方向约980公里",
       "bulletin": "“杜鹃”将以每小时35-40公里的速度向西偏北方向快速移动，强度变化不大",
       "track": [
         {
@@ -149,14 +149,27 @@
           "moveDirection": "西北西",
           "radius7": 480,
           "phase": "observed"
+        },
+        {
+          "time": "2026-09-17 23:00:00",
+          "longitude": 147.8,
+          "latitude": 23.8,
+          "intensity": "强热带风暴",
+          "windLevel": 10,
+          "windSpeed": 25,
+          "pressure": 985,
+          "moveSpeed": 37,
+          "moveDirection": "西北西",
+          "radius7": 480,
+          "phase": "observed"
         }
       ],
       "forecastAgency": "中国",
       "forecast": [
         {
-          "time": "2026-09-18 08:00:00",
-          "longitude": 144.5,
-          "latitude": 25.3,
+          "time": "2026-09-18 11:00:00",
+          "longitude": 143.9,
+          "latitude": 25.4,
           "intensity": "强热带风暴",
           "windLevel": 10,
           "windSpeed": 25,
@@ -167,8 +180,8 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-18 20:00:00",
-          "longitude": 142.2,
+          "time": "2026-09-18 23:00:00",
+          "longitude": 141.6,
           "latitude": 25.8,
           "intensity": "强热带风暴",
           "windLevel": 10,
@@ -180,9 +193,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-19 08:00:00",
-          "longitude": 140.6,
-          "latitude": 26.7,
+          "time": "2026-09-19 11:00:00",
+          "longitude": 140,
+          "latitude": 27,
           "intensity": "强热带风暴",
           "windLevel": 10,
           "windSpeed": 28,
@@ -193,9 +206,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-19 20:00:00",
-          "longitude": 139.7,
-          "latitude": 28,
+          "time": "2026-09-19 23:00:00",
+          "longitude": 139,
+          "latitude": 28.5,
           "intensity": "强热带风暴",
           "windLevel": 11,
           "windSpeed": 30,
@@ -206,9 +219,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-20 08:00:00",
-          "longitude": 139.2,
-          "latitude": 30,
+          "time": "2026-09-20 11:00:00",
+          "longitude": 138.9,
+          "latitude": 30.6,
           "intensity": "台风",
           "windLevel": 12,
           "windSpeed": 33,
@@ -219,9 +232,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-20 20:00:00",
+          "time": "2026-09-20 23:00:00",
           "longitude": 139.9,
-          "latitude": 32,
+          "latitude": 33,
           "intensity": "强热带风暴",
           "windLevel": 11,
           "windSpeed": 30,
@@ -232,9 +245,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-21 20:00:00",
-          "longitude": 146.6,
-          "latitude": 38.1,
+          "time": "2026-09-21 23:00:00",
+          "longitude": 147.7,
+          "latitude": 39.3,
           "intensity": "强热带风暴",
           "windLevel": 10,
           "windSpeed": 28,
@@ -245,9 +258,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-22 20:00:00",
-          "longitude": 158.4,
-          "latitude": 44,
+          "time": "2026-09-22 23:00:00",
+          "longitude": 158.1,
+          "latitude": 44.7,
           "intensity": "强热带风暴",
           "windLevel": 10,
           "windSpeed": 25,
