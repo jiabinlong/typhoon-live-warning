@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-18T06:35:58.801Z",
+  "fetchedAt": "2026-09-18T09:29:37.416Z",
   "source": {
     "name": "浙江省台风路径实时发布系统",
     "publisher": "浙江省水利厅",
@@ -15,23 +15,23 @@
       "englishName": "DUJUAN",
       "active": true,
       "startTime": "2026-09-16 20:00:00",
-      "endTime": "2026-09-18 14:00:00",
+      "endTime": "2026-09-18 17:00:00",
       "sourceWarningFlag": "white",
       "current": {
-        "time": "2026-09-18 14:00:00",
-        "longitude": 142.9,
+        "time": "2026-09-18 17:00:00",
+        "longitude": 142.6,
         "latitude": 25.7,
-        "intensity": "强热带风暴",
-        "windLevel": 11,
-        "windSpeed": 30,
-        "pressure": 980,
-        "moveSpeed": 17,
-        "moveDirection": "西",
+        "intensity": "台风",
+        "windLevel": 12,
+        "windSpeed": 33,
+        "pressure": 975,
+        "moveSpeed": 19,
+        "moveDirection": "西北西",
         "radius7": 500,
         "phase": "observed"
       },
-      "positionDescription": "距离日本东京南偏东方向约1150公里",
-      "bulletin": "“杜鹃”将以每小时15-20公里的速度向偏西方向移动，强度变化不大",
+      "positionDescription": "距离日本东京南偏东方向约1140公里",
+      "bulletin": "“杜鹃”将以每小时15-20公里的速度向西偏北方向移动，强度变化不大",
       "track": [
         {
           "time": "2026-09-16 20:00:00",
@@ -227,14 +227,27 @@
           "moveDirection": "西",
           "radius7": 500,
           "phase": "observed"
+        },
+        {
+          "time": "2026-09-18 17:00:00",
+          "longitude": 142.6,
+          "latitude": 25.7,
+          "intensity": "台风",
+          "windLevel": 12,
+          "windSpeed": 33,
+          "pressure": 975,
+          "moveSpeed": 19,
+          "moveDirection": "西北西",
+          "radius7": 500,
+          "phase": "observed"
         }
       ],
       "forecastAgency": "中国",
       "forecast": [
         {
-          "time": "2026-09-19 02:00:00",
-          "longitude": 141,
-          "latitude": 26,
+          "time": "2026-09-19 05:00:00",
+          "longitude": 140.4,
+          "latitude": 26.1,
           "intensity": "台风",
           "windLevel": 12,
           "windSpeed": 33,
@@ -245,9 +258,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-19 14:00:00",
-          "longitude": 139.3,
-          "latitude": 27.2,
+          "time": "2026-09-19 17:00:00",
+          "longitude": 138.7,
+          "latitude": 27.5,
           "intensity": "台风",
           "windLevel": 12,
           "windSpeed": 35,
@@ -258,9 +271,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-20 02:00:00",
-          "longitude": 138.2,
-          "latitude": 28.6,
+          "time": "2026-09-20 05:00:00",
+          "longitude": 137.8,
+          "latitude": 29,
           "intensity": "台风",
           "windLevel": 12,
           "windSpeed": 35,
@@ -271,9 +284,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-20 14:00:00",
-          "longitude": 138.2,
-          "latitude": 30.5,
+          "time": "2026-09-20 17:00:00",
+          "longitude": 137.7,
+          "latitude": 30.8,
           "intensity": "台风",
           "windLevel": 12,
           "windSpeed": 35,
@@ -284,9 +297,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-21 02:00:00",
-          "longitude": 139,
-          "latitude": 32.7,
+          "time": "2026-09-21 05:00:00",
+          "longitude": 138.5,
+          "latitude": 32.9,
           "intensity": "台风",
           "windLevel": 12,
           "windSpeed": 33,
@@ -297,7 +310,7 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-21 14:00:00",
+          "time": "2026-09-21 17:00:00",
           "longitude": 141.6,
           "latitude": 35.5,
           "intensity": "强热带风暴",
@@ -310,9 +323,9 @@
           "phase": "forecast"
         },
         {
-          "time": "2026-09-22 14:00:00",
-          "longitude": 154.5,
-          "latitude": 41.8,
+          "time": "2026-09-22 17:00:00",
+          "longitude": 155,
+          "latitude": 41.7,
           "intensity": "热带风暴",
           "windLevel": 9,
           "windSpeed": 23,
